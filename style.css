@@ -178,3 +178,5 @@ table.data {
   nav[aria-label="Main"] a { padding: .35rem .6rem; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.key { font-family: var(--body-font); font-weight: 700; margin: 0 0 1rem; }

@@ -1,0 +1,19 @@
+---
+layout: base.njk
+---
+<main>
+<div class="chipbar" aria-label="Jump to week"><div class="wrap"><span>Week</span>{% for w in collections.weeks %}<a href="{{ w.url }}"{% if w.url == page.url %} aria-current="page"{% endif %}>{{ w.data.week }}</a>{% endfor %}</div></div>
+<div class="wrap diary">
+  <header class="week-head">
+    <p class="kicker">Week {{ week }} &middot; {{ dates }}</p>
+    <h1>{{ title }}</h1>
+  </header>
+  <div class="week-body">
+{{ content | safe }}
+  </div>
+  <nav class="week-nav" aria-label="Week navigation">
+    {% if week > 1 %}{% set prev = collections.weeks[week - 2] %}<a href="{{ prev.url }}" rel="prev">&larr; Week {{ prev.data.week }}: {{ prev.data.title }}</a>{% else %}<span></span>{% endif %}
+    {% if week < collections.weeks.length %}{% set next = collections.weeks[week] %}<a href="{{ next.url }}" rel="next">Week {{ next.data.week }}: {{ next.data.title }} &rarr;</a>{% else %}<span></span>{% endif %}
+  </nav>
+</div>
+</main>

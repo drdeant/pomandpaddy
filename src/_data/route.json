@@ -1,0 +1,362 @@
+[
+ {
+  "name": "Sydney to Adelaide",
+  "km": 1460,
+  "duration": "5 days",
+  "start": "28/03/04",
+  "finish": "1/04/04",
+  "leg": true
+ },
+ {
+  "name": "Sydney - Wagga Wagga",
+  "km": 470,
+  "duration": "1 day",
+  "start": "28/03/04",
+  "finish": "28/03/04",
+  "leg": false
+ },
+ {
+  "name": "Wagga Wagga - Pink Lakes",
+  "km": 600,
+  "duration": "2 days",
+  "start": "29/03/04",
+  "finish": "30/03/04",
+  "leg": false
+ },
+ {
+  "name": "Pink Lakes - Adelaide",
+  "km": 390,
+  "duration": "2 days",
+  "start": "31/03/04",
+  "finish": "1/04/04",
+  "leg": false
+ },
+ {
+  "name": "Adelaide - Perth",
+  "km": 3824,
+  "duration": "16 days",
+  "start": "2/04/04",
+  "finish": "17/04/04",
+  "leg": true
+ },
+ {
+  "name": "Adelaide",
+  "km": 100,
+  "duration": "1 day",
+  "start": "2/04/04",
+  "finish": "2/04/04",
+  "leg": false
+ },
+ {
+  "name": "Barossa / Clare Valleys",
+  "km": 335,
+  "duration": "1 day",
+  "start": "3/04/04",
+  "finish": "3/04/04",
+  "leg": false
+ },
+ {
+  "name": "BCV - Fitzgerald Bay",
+  "km": 235,
+  "duration": "1 day",
+  "start": "4/04/04",
+  "finish": "4/04/04",
+  "leg": false
+ },
+ {
+  "name": "Fitzgerald Bay - Widunna",
+  "km": 295,
+  "duration": "1 day",
+  "start": "5/04/04",
+  "finish": "5/04/04",
+  "leg": false
+ },
+ {
+  "name": "Widunna - Nullarbor Roadhouse",
+  "km": 535,
+  "duration": "1 day",
+  "start": "6/04/04",
+  "finish": "6/04/04",
+  "leg": false
+ },
+ {
+  "name": "Nullarbor Roadhouse - Balladonia",
+  "km": 700,
+  "duration": "1 day",
+  "start": "7/04/04",
+  "finish": "7/04/04",
+  "leg": false
+ },
+ {
+  "name": "Balladonia - Esperence",
+  "km": 394,
+  "duration": "1 day",
+  "start": "8/04/04",
+  "finish": "8/04/04",
+  "leg": false
+ },
+ {
+  "name": "Cape Le Grand NP",
+  "km": 200,
+  "duration": "2 days",
+  "start": "9/04/04",
+  "finish": "10/04/04",
+  "leg": false
+ },
+ {
+  "name": "Esperence - Stokes NP",
+  "km": 100,
+  "duration": "1 day",
+  "start": "11/04/04",
+  "finish": "11/04/04",
+  "leg": false
+ },
+ {
+  "name": "Stokes NP - Albany",
+  "km": 400,
+  "duration": "1 day",
+  "start": "12/04/04",
+  "finish": "12/04/04",
+  "leg": false
+ },
+ {
+  "name": "Around Albany",
+  "km": 30,
+  "duration": "1 day",
+  "start": "13/04/04",
+  "finish": "13/04/04",
+  "leg": false
+ },
+ {
+  "name": "Albany - Pemberton",
+  "km": 200,
+  "duration": "1 day",
+  "start": "14/04/04",
+  "finish": "14/04/04",
+  "leg": false
+ },
+ {
+  "name": "Pemberton - Margaret River",
+  "km": 300,
+  "duration": "1 day",
+  "start": "15/04/04",
+  "finish": "15/04/04",
+  "leg": false
+ },
+ {
+  "name": "Margaret River",
+  "km": 0,
+  "duration": "1 day",
+  "start": "16/04/04",
+  "finish": "16/04/04",
+  "leg": false
+ },
+ {
+  "name": "Margaret River - Perth",
+  "km": 0,
+  "duration": "1 day",
+  "start": "17/04/04",
+  "finish": "17/04/04",
+  "leg": false
+ },
+ {
+  "name": "Perth to Broome",
+  "km": 2620,
+  "duration": "22 days",
+  "start": "18/04/04",
+  "finish": "9/05/04",
+  "leg": true
+ },
+ {
+  "name": "Around Perth",
+  "km": 0,
+  "duration": "4 days",
+  "start": "18/04/04",
+  "finish": "21/04/04",
+  "leg": false
+ },
+ {
+  "name": "Perth - Geraldton",
+  "km": 430,
+  "duration": "2 days",
+  "start": "22/04/04",
+  "finish": "23/04/04",
+  "leg": false
+ },
+ {
+  "name": "Geraldton - Carnarvon",
+  "km": 473,
+  "duration": "5 days",
+  "start": "24/04/04",
+  "finish": "28/04/04",
+  "leg": false
+ },
+ {
+  "name": "Carnarvon - Exmouth",
+  "km": 367,
+  "duration": "3 days",
+  "start": "29/04/04",
+  "finish": "1/05/04",
+  "leg": false
+ },
+ {
+  "name": "Exmouth - Tom Price",
+  "km": 523,
+  "duration": "4 days",
+  "start": "2/05/04",
+  "finish": "5/05/04",
+  "leg": false
+ },
+ {
+  "name": "Tom Price - Port Hedland",
+  "km": 193,
+  "duration": "2 days",
+  "start": "6/05/04",
+  "finish": "7/05/04",
+  "leg": false
+ },
+ {
+  "name": "Port Hedland - Broome",
+  "km": 634,
+  "duration": "2 days",
+  "start": "8/05/04",
+  "finish": "9/05/04",
+  "leg": false
+ },
+ {
+  "name": "Broome to Darwin",
+  "km": 2421,
+  "duration": "15 days",
+  "start": "10/05/04",
+  "finish": "24/05/04",
+  "leg": true
+ },
+ {
+  "name": "Broome - Kununurra",
+  "km": 1000,
+  "duration": "9 days",
+  "start": "10/05/04",
+  "finish": "18/05/04",
+  "leg": false
+ },
+ {
+  "name": "Kununurra - BB - Kununurra",
+  "km": 600,
+  "duration": "3 days",
+  "start": "19/05/04",
+  "finish": "21/05/04",
+  "leg": false
+ },
+ {
+  "name": "Kununurra - Katherine",
+  "km": 512,
+  "duration": "2 days",
+  "start": "22/05/04",
+  "finish": "23/05/04",
+  "leg": false
+ },
+ {
+  "name": "Katherine - Darwin",
+  "km": 309,
+  "duration": "1 day",
+  "start": "24/05/04",
+  "finish": "24/05/04",
+  "leg": false
+ },
+ {
+  "name": "Darwin to Alice",
+  "km": 2392,
+  "duration": "12 days",
+  "start": "25/05/04",
+  "finish": "5/06/04",
+  "leg": true
+ },
+ {
+  "name": "Darwin circuits",
+  "km": 900,
+  "duration": "8 days",
+  "start": "25/05/04",
+  "finish": "1/06/04",
+  "leg": false
+ },
+ {
+  "name": "Darwin - Mataranka",
+  "km": 415,
+  "duration": "1 day",
+  "start": "2/06/04",
+  "finish": "2/06/04",
+  "leg": false
+ },
+ {
+  "name": "Mataranka - Alice Springs",
+  "km": 1077,
+  "duration": "3 days",
+  "start": "3/06/04",
+  "finish": "5/06/04",
+  "leg": false
+ },
+ {
+  "name": "Alice to Sydney",
+  "km": 2794,
+  "duration": "15 days",
+  "start": "6/06/04",
+  "finish": "20/06/04",
+  "leg": true
+ },
+ {
+  "name": "Alice circuits",
+  "km": 0,
+  "duration": "6 days",
+  "start": "6/06/04",
+  "finish": "11/06/04",
+  "leg": false
+ },
+ {
+  "name": "Alice Springs - Maria",
+  "km": 457,
+  "duration": "1 day",
+  "start": "12/06/04",
+  "finish": "12/06/04",
+  "leg": false
+ },
+ {
+  "name": "Maria - Coober Peedy",
+  "km": 232,
+  "duration": "1 day",
+  "start": "13/06/04",
+  "finish": "13/06/04",
+  "leg": false
+ },
+ {
+  "name": "Coober Peedy - Port Augusta",
+  "km": 532,
+  "duration": "2 days",
+  "start": "14/06/04",
+  "finish": "15/06/04",
+  "leg": false
+ },
+ {
+  "name": "Port Augusta - Broken Hill",
+  "km": 414,
+  "duration": "1 day",
+  "start": "16/06/04",
+  "finish": "16/06/04",
+  "leg": false
+ },
+ {
+  "name": "Broken Hill - Dubbo",
+  "km": 752,
+  "duration": "3 days",
+  "start": "17/06/04",
+  "finish": "19/06/04",
+  "leg": false
+ },
+ {
+  "name": "Dubbo - Sydney",
+  "km": 407,
+  "duration": "1 day",
+  "start": "20/06/04",
+  "finish": "20/06/04",
+  "leg": false
+ }
+]

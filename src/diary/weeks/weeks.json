@@ -1,0 +1,8 @@
+{
+  "layout": "week.njk",
+  "permalink": "/diary/week-{{ week }}/",
+  "eleventyComputed": {
+    "pageTitle": "Week {{ week }}: {{ title }} – Pom and Paddy",
+    "description": "Week {{ week }} of Dean and Orla's 2004 road trip around Australia: {{ title }}, {{ dates }}."
+  }
+}

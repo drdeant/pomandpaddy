@@ -133,21 +133,21 @@ figcaption {
   text-decoration: none; font-weight: 600; font-size: .9rem;
 }
 .chipbar a:hover { border-color: var(--accent); }
+.chipbar a[aria-current="page"] { background: var(--accent); border-color: var(--accent); color: #fff; }
 
 .diary { background: var(--paper); border-left: 1px solid var(--line); border-right: 1px solid var(--line); }
-.week { padding-top: 2rem; scroll-margin-top: calc(var(--header-h) + var(--chip-h)); }
-.week + .week { border-top: 3px double var(--line); margin-top: 2rem; }
 .week-head .kicker {
   margin: 0; color: var(--accent); font-weight: 700; font-size: .85rem;
   text-transform: uppercase; letter-spacing: .05em;
 }
-.week-head h2 { margin-top: .25rem; }
-.day { scroll-margin-top: calc(var(--header-h) + var(--chip-h)); }
-.day h3 {
+.week-head { padding-top: 1rem; }
+.week-head h1 { margin-top: .25rem; }
+.week-body h2 {
+  scroll-margin-top: calc(var(--header-h) + var(--chip-h) + .5rem); color: var(--ink);
   font: bold 1.35rem/1.3 var(--head-font); text-align: center;
   margin: 2.25rem 0 1rem;
 }
-.day p { font-family: var(--body-font); font-size: 1rem; margin: 0 0 1rem; }
+.week-body p { font-family: var(--body-font); font-size: 1rem; margin: 0 0 1rem; }
 .c-blue { color: var(--blue); }
 .c-red { color: var(--red); }
 .c-purple { color: var(--purple); }

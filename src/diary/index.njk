@@ -1,0 +1,18 @@
+---
+layout: base.njk
+title: Diary – Pom and Paddy's Big Trip
+description: Week-by-week diary of Dean and Orla's 2004 road trip around Australia.
+permalink: /diary/
+---
+<main>
+<div class="wrap">
+  <h1>The Big Trip diary</h1>
+  <p class="lede">Thirteen weeks around Australia in Max the Cruiser, written up as we went. Pick a week to start reading.</p>
+  <p class="key"><span class="c-red">Red</span> is Dean (Pom), <span class="c-blue">blue</span> is Orla (Paddy).</p>
+  <div class="week-grid">
+{%- for w in collections.weeks %}
+    <a class="week-card" href="{{ w.url }}"><img src="/images/{{ w.data.cover }}" width="480" height="360" alt="" loading="lazy"><span class="wk">Week {{ w.data.week }}</span><span class="wt">{{ w.data.title }}</span><span class="wd">{{ w.data.dates }}</span></a>
+{%- endfor %}
+  </div>
+</div>
+</main>

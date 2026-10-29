@@ -1,0 +1,37 @@
+---
+layout: base.njk
+title: The Trip – Pom and Paddy
+description: Route plan and statistics from Dean and Orla's 2004 road trip around Australia.
+permalink: /trip/
+---
+<main>
+<div class="wrap">
+  <h1>The Trip</h1>
+  <p class="lede">The plan of attack, and some (not so vital) statistics.</p>
+
+  <h2 id="plan">Plan of attack</h2>
+  <p>Sydney to Sydney, anticlockwise, 28 March to 20 June 2004 &mdash; roughly {{ route | legTotal }} km as planned.</p>
+  <div class="table-scroll">
+  <table class="data plan">
+    <thead><tr><th scope="col">Leg</th><th scope="col">km</th><th scope="col">Duration</th><th scope="col">Start</th><th scope="col">Finish</th></tr></thead>
+    <tbody>
+{%- for r in route %}
+      <tr{% if r.leg %} class="leg"{% endif %}><th scope="row">{{ r.name }}</th><td>{{ r.km | km }}</td><td>{{ r.duration }}</td><td>{{ r.start }}</td><td>{{ r.finish }}</td></tr>
+{%- endfor %}
+    </tbody>
+  </table>
+  </div>
+
+  <h2 id="stats">Stats!</h2>
+  <div class="table-scroll">
+  <table class="data stats">
+    <thead><tr>{% for h in stats.headers %}<th scope="col">{{ h }}</th>{% endfor %}</tr></thead>
+    <tbody>
+{%- for row in stats.rows %}
+      <tr><th scope="row">{{ row[0] }}</th><td>{{ row[1] }}</td><td>{{ row[2] }}</td></tr>
+{%- endfor %}
+    </tbody>
+  </table>
+  </div>
+</div>
+</main>

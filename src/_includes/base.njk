@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ pageTitle or title }}</title>
+<meta name="description" content="{{ description }}">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="/">Pom <span>&amp;</span> Paddy</a>
+    <nav aria-label="Main">
+      <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Home</a>
+      <a href="/diary/"{% if page.url.startsWith("/diary/") %} aria-current="page"{% endif %}>Diary</a>
+      <a href="/trip/"{% if page.url == "/trip/" %} aria-current="page"{% endif %}>The Trip</a>
+    </nav>
+  </div>
+</header>
+{{ content | safe }}
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Maintained by Pom (<a href="mailto:dean@pomandpaddy.com">dean@pomandpaddy.com</a>) &middot;
+    Creative input by Paddy (<a href="mailto:orla@pomandpaddy.com">orla@pomandpaddy.com</a>)</p>
+  </div>
+</footer>
+</body>
+</html>
